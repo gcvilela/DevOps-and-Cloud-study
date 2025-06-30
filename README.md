@@ -1,3 +1,5 @@
+ref: https://github.com/gcvilela/DevOps-and-Cloud-Basics
+
 # DevOps and Cloud Basics
 
 Nesta trilha de aprendizado, o objetivo foi aplicar na prática os conceitos de DevOps e Cloud, evoluindo um programa simples em Python. A jornada demonstrou que, tão importante quanto saber um conceito, é saber repassar o conhecimento.
