@@ -1,3 +1,5 @@
+ref de estudo: https://github.com/marimoreiraa/DevOps-and-Cloud-Basics/tree/main
+
 # Jornada DevOps: Da Cultura à Infraestrutura como Código
 
 Este repositório documenta uma trilha de aprendizado prático sobre os conceitos fundamentais de DevOps e Cloud Computing. O objetivo foi evoluir uma aplicação simples em Python, aplicando progressivamente os princípios, ferramentas e melhores práticas do ecossistema DevOps.
