@@ -92,4 +92,4 @@ A etapa final unificou todo o projeto, permitindo que toda a infraestrutura na A
 
 ## 🎯 Conclusão do Estudo
 
-Esta jornada prática permitiu não apenas aprender sobre ferramentas isoladas, mas entender como elas se conectam para formar um ecossistema DevOps coeso e eficiente. A evolução de um simples script para uma solução totalmente automatizada, conteinerizada, monitorável e gerenciada como código demonstra o poder da aplicação desses conceitos no ciclo de vida de software.
+
