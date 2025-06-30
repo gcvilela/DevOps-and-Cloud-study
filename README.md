@@ -1,4 +1,4 @@
-ref: https://github.com/gcvilela/DevOps-and-Cloud-Basics
+ref: https://github.com/marimoreiraa/DevOps-and-Cloud-Basics
 
 # DevOps and Cloud Basics
 
