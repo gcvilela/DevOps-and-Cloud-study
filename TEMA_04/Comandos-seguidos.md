@@ -7,7 +7,7 @@ Primeiro, realizei as seguintes configurações no painel da AWS:
 
 - Utilizei minha conta pessoal da AWS.
 
-- Criei uma nova instância EC2 (usando o Free Tier) e baixei o par de chaves SSH (.ppk) gerado durante o processo.
+- Criei uma nova instância EC2 (usando o free-tier) e baixei o par de chaves SSH (.ppk) gerado durante o processo.
 
 - Criei um bucket de uso geral no S3, que nomeei de ``meu-bucket-teste-teste``.
 
