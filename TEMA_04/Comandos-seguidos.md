@@ -1,5 +1,3 @@
-```bloco de comando```
-
 # Registro de Atividades TEMA-04
 
 Este documento é um registro dos passos que realizei para configurar e sincronizar uma pasta em uma instância EC2 com um bucket no Amazon S3.
