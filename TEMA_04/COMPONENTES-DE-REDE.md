@@ -72,6 +72,13 @@ Principais características:
 - Cada VPC Peering requer configuração de tabelas de rotas para garantir que os CIDRs das VPCs sejam roteáveis entre si.
 - Não é necessário tráfego passar pela internet — a comunicação é feita pela backbone privada da AWS.
 
-## Fluxo de Rede Comum
 
-Exemplo de fluxo de comunicação para uma instância privada acessar a internet:
+## Boas Práticas
+
+- Planeje os blocos CIDR da VPC para evitar sobreposição de IPs em futuros Peerings.
+- Utilize Security Groups restritivos, permitindo apenas o tráfego essencial.
+- Divida as sub-redes em públicas e privadas para maior segurança.
+- Use IAM Roles para evitar armazenamento de credenciais em servidores ou código-fonte.
+- Habilite **VPC Flow Logs** para monitorar tráfego e detectar atividades suspeitas.
+- Centralize logs e monitore segurança com AWS CloudWatch e AWS GuardDuty.
+
