@@ -1,4 +1,4 @@
-# Documentação: Serviços Essenciais na GCP
+# Serviços Essenciais na GCP
 
 ## 1. VPC (Virtual Private Cloud)
 
