@@ -27,19 +27,19 @@ Dentro da sessão SSH da instância EC2, executei os seguintes comandos:
 
 - Criei o diretório ``TEMA-04``.
   
-```
+```bash
 mkdir TEMA-04
 ```
 
 - Naveguei para dentro da pasta recém-criada.
 
-```
+```bash
 cd TEMA-04
 ```
 
 - Criei um arquivo de texto de exemplo chamado ``teste-texto.txt`` com o editor vim.
 
-```
+```bash
 vim teste-texto.txt
 ```
 
@@ -48,7 +48,7 @@ Para permitir que a instância se comunicasse com o S3, configurei a AWS CLI:
 
 - Rodei o comando de configuração.
 
-```
+```bash
 aws configure
 ```
 
@@ -59,11 +59,11 @@ Finalmente, realizei a sincronização dos dados entre a EC2 e o S3.
 
 - Usei o comando aws s3 sync para enviar a pasta local para o bucket S3 (Upload), dentro de um "diretório" de mesmo nome.
 
-```
+```bash
 aws s3 sync "/home/ec2-user/TEMA-04" "s3://meu-bucket-teste-teste/TEMA-04"
 ```
 - Para testar o caminho inverso, executei o mesmo comando, apenas invertendo a origem e o destino (Download).
 
-```
+```bash
 aws s3 sync "s3://meu-bucket-teste-teste/TEMA-04" "/home/ec2-user/TEMA-04"
 ```
